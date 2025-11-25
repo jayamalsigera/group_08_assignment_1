@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(group_08_assignment_1)
+project(group_8_assignment_1)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -40,8 +40,8 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-add_executable(my_node src/my_node.cpp)
-ament_target_dependencies(my_node
+add_executable(turtlebot_node src/turtlebot_node.cpp)
+ament_target_dependencies(turtlebot_node
   rclcpp
   std_msgs
   geometry_msgs
@@ -54,7 +54,14 @@ ament_target_dependencies(my_node
   apriltag_ros
   nav2_msgs
 )
-install(TARGETS my_node DESTINATION lib/${PROJECT_NAME})
 
+install(
+  TARGETS turtlebot_node 
+  DESTINATION lib/${PROJECT_NAME})
+
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 ament_package()
