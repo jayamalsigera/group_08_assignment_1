@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/initial_pose_node" "TARGETS" "initial_pose_node" "DESTINATION" "lib/group_8_assignment_1")

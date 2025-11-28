@@ -1,0 +1,11 @@
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/uninstall.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/group_8_assignment_1_uninstall.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/initial_pose_node.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/apriltag_center_node.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/test.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/edit_cache.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/rebuild_cache.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/list_install_components.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/install.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/install/local.dir
+/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1/CMakeFiles/install/strip.dir
