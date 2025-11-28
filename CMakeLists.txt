@@ -42,6 +42,10 @@ ament_target_dependencies(initial_pose_node
   geometry_msgs
 )
 
+add_executable(camera_relay_node 
+  src/camera_relay_node.cpp
+)
+
 ament_target_dependencies(apriltag_center_node
   rclcpp
   std_msgs
@@ -57,6 +61,10 @@ ament_target_dependencies(apriltag_center_node
   nav2_msgs
 )
 
+ament_target_dependencies(camera_relay_node
+    rclcpp sensor_msgs
+)
+
 install(
   DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
@@ -69,6 +77,7 @@ install(
   TARGETS initial_pose_node 
   DESTINATION lib/${PROJECT_NAME})
 
-
+install(TARGETS camera_relay_node
+  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

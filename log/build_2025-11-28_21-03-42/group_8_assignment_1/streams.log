@@ -1,0 +1,76 @@
+[0.032s] Invoking command in '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.316s] -- The CXX compiler identification is GNU 13.3.0
+[0.347s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.515s] -- Detecting CXX compiler ABI info
+[0.642s] -- Detecting CXX compiler ABI info - done
+[0.652s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.652s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.661s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.925s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.081s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.169s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.263s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.291s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.492s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.501s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.654s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.687s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.836s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.859s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.879s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.911s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.948s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[1.958s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.140s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.177s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.179s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.179s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.188s] -- Found tf2_sensor_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[2.197s] -- Found apriltag_ros: 3.3.0 (/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros/share/apriltag_ros/cmake)
+[2.201s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/jazzy/share/apriltag_msgs/cmake)
+[2.231s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[2.249s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[2.271s] -- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[2.504s] -- Configuring done (2.5s)
+[2.536s] -- Generating done (0.0s)
+[2.541s] -- Build files have been written to: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1
+[2.572s] Invoked command in '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1
+[2.573s] Invoking command in '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1 -- -j8 -l8
+[2.643s] [ 25%] [32mBuilding CXX object CMakeFiles/initial_pose_node.dir/src/initial_pose_node.cpp.o[0m
+[8.985s] [ 50%] [32m[1mLinking CXX executable initial_pose_node[0m
+[9.241s] [ 50%] Built target initial_pose_node
+[9.269s] [ 75%] [32mBuilding CXX object CMakeFiles/apriltag_center_node.dir/src/apriltag_center_node.cpp.o[0m
+[20.057s] [100%] [32m[1mLinking CXX executable apriltag_center_node[0m
+[20.727s] [100%] Built target apriltag_center_node
+[20.738s] Invoked command in '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1 -- -j8 -l8
+[20.756s] Invoking command in '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1
+[20.766s] -- Install configuration: ""
+[20.766s] -- Execute custom install script
+[20.766s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/launch/pipeline.launch.py
+[20.775s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/lib/group_8_assignment_1/apriltag_center_node
+[20.789s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/lib/group_8_assignment_1/initial_pose_node
+[20.801s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/ament_index/resource_index/package_run_dependencies/group_8_assignment_1
+[20.811s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/ament_index/resource_index/parent_prefix_path/group_8_assignment_1
+[20.831s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/ament_prefix_path.sh
+[20.845s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/ament_prefix_path.dsv
+[20.863s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/path.sh
+[20.872s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/path.dsv
+[20.881s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.bash
+[20.897s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.sh
+[20.907s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.zsh
+[20.916s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.dsv
+[20.936s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/package.dsv
+[20.948s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/ament_index/resource_index/packages/group_8_assignment_1
+[20.960s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/cmake/group_8_assignment_1Config.cmake
+[20.971s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/cmake/group_8_assignment_1Config-version.cmake
+[20.984s] -- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/package.xml
+[20.994s] Invoked command in '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1

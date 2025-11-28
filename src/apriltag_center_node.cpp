@@ -13,7 +13,7 @@ public:
     center_pose_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("/apriltag_center_pose", 10);
 
     apriltag_sub = this->create_subscription<apriltag_msgs::msg::AprilTagDetectionArray>(
-        "/apriltag_detections", 10,
+        "/apriltag/detections", 10,
         std::bind(&AprilTagCenterNode::detectionsCallback, this, std::placeholders::_1));
 
     this->declare_parameter<std::string>("frame_id", "map");
