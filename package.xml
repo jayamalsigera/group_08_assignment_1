@@ -9,9 +9,6 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
-
   <exec_depend>rclcpp</exec_depend>
   <exec_depend>rclpy</exec_depend>
 
@@ -25,6 +22,9 @@
   <exec_depend>image_transport</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>apriltag_ros</exec_depend>
+
+  <build_depend>apriltag_msgs</build_depend>
+  <exec_depend>apriltag_msgs</exec_depend>
 
   <exec_depend>nav2_msgs</exec_depend>  
 

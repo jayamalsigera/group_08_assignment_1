@@ -26,8 +26,45 @@ def generate_launch_description():
         launch_arguments={'use_sim_time': use_sim_time}.items()
     )
 
+
+    amcl_node = Node(
+    package='nav2_amcl',
+    executable='amcl',
+    name='amcl',
+    parameters=[
+        {"use_sim_time": True},
+        {"scan_topic": "/scan"},
+        {"min_particles": 200},
+        {"max_particles": 2000},
+        {"odom_frame_id": "odom"},
+        {"base_frame_id": "base_link"},
+        {"global_frame_id": "map"},
+        {"tf_broadcast": True}
+    ],
+    output='screen',
+    )
+
+    initial_pose_node = Node(
+        package='group_8_assignment_1',
+        executable='initial_pose_node',
+        name='initial_pose_node',
+        output='screen'
+    )
+
+
+    apriltag_center_node = Node(
+        package='group_8_assignment_1',
+        executable='apriltag_center_node',
+        name='apriltag_center_node',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
     # Return the launch description
     return LaunchDescription([
         declare_use_sim_time,
-        assignment_1_launch
+        assignment_1_launch,
+        initial_pose_node,
+        amcl_node,
+        apriltag_center_node
     ])
