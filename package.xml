@@ -1,13 +1,22 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>group_08_assignament_1</name>
+  <name>group_8_assignment_1</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="veelochanas@gmail.com">jayamalsigera</maintainer>
+  <description>Assignment 1 - Turtlebot</description>
+  <maintainer email="prakash.vizzapu@studenti.unipd.it">prakash</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav2_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>apriltag_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
@@ -16,3 +25,4 @@
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+
