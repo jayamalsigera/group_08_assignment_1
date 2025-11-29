@@ -124,7 +124,6 @@ private:
       p_cam.header.frame_id = cam_frame;
       p_cam.point.x = X;
       p_cam.point.y = Y;
-      p_cam.point.z = Z;
 
       try {
         tf_buffer_->transform(p_cam, p_world, frame_id_);
@@ -134,7 +133,6 @@ private:
 
       sum_x += p_world.point.x;
       sum_y += p_world.point.y;
-      sum_z += p_world.point.z;
       tag_num++;
     }
 
@@ -145,7 +143,7 @@ private:
     last_center_pose_.header.frame_id = frame_id_;
     last_center_pose_.pose.position.x = sum_x / tag_num;
     last_center_pose_.pose.position.y = sum_y / tag_num;
-    last_center_pose_.pose.position.z = sum_z / tag_num;
+    last_center_pose_.pose.position.z = 0.0;
     last_center_pose_.pose.orientation.w = 1.0;
 
     has_valid_center_pose_ = true;
