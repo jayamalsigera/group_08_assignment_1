@@ -5,6 +5,8 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+include_directories(/opt/ros/jazzy/include)
+
 # find dependencies
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
@@ -26,11 +28,12 @@ find_package(apriltag_msgs REQUIRED)
 
 find_package(image_transport REQUIRED)
 find_package(cv_bridge REQUIRED)
+find_package(OpenCV REQUIRED)
 
 find_package(nav2_msgs REQUIRED)
 
 add_executable(initial_pose_node 
-src/initial_pose_node.cpp
+  src/initial_pose_node.cpp
 )
 
 add_executable(apriltag_center_node 
@@ -59,6 +62,10 @@ ament_target_dependencies(apriltag_center_node
   apriltag_ros
   apriltag_msgs
   nav2_msgs
+)
+
+target_link_libraries(apriltag_center_node
+  ${OpenCV_LIBS}
 )
 
 ament_target_dependencies(camera_relay_node
