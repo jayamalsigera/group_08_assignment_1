@@ -114,9 +114,7 @@ private:
     goal.pose.position.y = 0.5 * (p1_map.pose.position.y + p2_map.pose.position.y);
     goal.pose.position.z = 0.0;
 
-    // Make the robot face roughly toward the tags.
-    // Here we assume tags are "in front" of the camera / robot,
-    // so we face from goal back toward the origin (0,0) in map.
+    // Make the robot face roughly toward the origin (0,0) in map
     double dx = 0.0 - goal.pose.position.x;
     double dy = 0.0 - goal.pose.position.y;
     double yaw = std::atan2(dy, dx);
