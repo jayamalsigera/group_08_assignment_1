@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (group_8_assignment_1) JobQueued: {'identifier': 'group_8_assignment_1', 'dependencies': OrderedDict()}
+[0.000434] (group_8_assignment_1) JobStarted: {'identifier': 'group_8_assignment_1'}
+[0.020255] (group_8_assignment_1) JobProgress: {'identifier': 'group_8_assignment_1', 'progress': 'cmake'}
+[0.021846] (group_8_assignment_1) Command: {'cmd': ['/usr/bin/cmake', '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1'], 'cwd': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jayamalsigera', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4/lib:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros/lib:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions/lib:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jayamalsigera', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '2252', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayamalsigera', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jayamalsigera', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jayamalsigera/software/anaconda3/condabin:/home/jayamalsigera/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JSNode-UL20:@/tmp/.ICE-unix/2216,unix/JSNode-UL20:/tmp/.ICE-unix/2216', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf1f7240_0fa6_4b19_8974_29b962bd14a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IR1MG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_movit_config:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_launch:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_desription:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_base:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_assignment_1:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex3_bag_tf_apriltags:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/jayamalsigera/software/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jayamalsigera/software/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jayamalsigera/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4/lib/python3.12/site-packages:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions/lib/python3.12/site-packages:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_movit_config:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_launch:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_desription:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_base:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_assignment_1:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex3_bag_tf_apriltags:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099730] (-) TimerEvent: {}
+[0.177489] (group_8_assignment_1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199888] (-) TimerEvent: {}
+[0.300390] (-) TimerEvent: {}
+[0.316593] (group_8_assignment_1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.346901] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400578] (-) TimerEvent: {}
+[0.483173] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.494690] (group_8_assignment_1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.495298] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.496558] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500671] (-) TimerEvent: {}
+[0.515500] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600905] (-) TimerEvent: {}
+[0.642283] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.652478] (group_8_assignment_1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.652759] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.653117] (group_8_assignment_1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.661146] (group_8_assignment_1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701002] (-) TimerEvent: {}
+[0.802569] (-) TimerEvent: {}
+[0.902941] (-) TimerEvent: {}
+[0.924130] (group_8_assignment_1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.003081] (-) TimerEvent: {}
+[1.080895] (group_8_assignment_1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.103196] (-) TimerEvent: {}
+[1.169146] (group_8_assignment_1) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.203341] (-) TimerEvent: {}
+[1.263381] (group_8_assignment_1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.290886] (group_8_assignment_1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.303492] (-) TimerEvent: {}
+[1.322175] (group_8_assignment_1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.361284] (group_8_assignment_1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403714] (-) TimerEvent: {}
+[1.491788] (group_8_assignment_1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.500651] (group_8_assignment_1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503838] (-) TimerEvent: {}
+[1.604394] (-) TimerEvent: {}
+[1.654239] (group_8_assignment_1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.687411] (group_8_assignment_1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.705039] (-) TimerEvent: {}
+[1.724395] (group_8_assignment_1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.805013] (-) TimerEvent: {}
+[1.836111] (group_8_assignment_1) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.858822] (group_8_assignment_1) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.879481] (group_8_assignment_1) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.905188] (-) TimerEvent: {}
+[1.910766] (group_8_assignment_1) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.947683] (group_8_assignment_1) StdoutLine: {'line': b'-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.957956] (group_8_assignment_1) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.005295] (-) TimerEvent: {}
+[2.105730] (-) TimerEvent: {}
+[2.140013] (group_8_assignment_1) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.177443] (group_8_assignment_1) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.179158] (group_8_assignment_1) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.179402] (group_8_assignment_1) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.187909] (group_8_assignment_1) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[2.196765] (group_8_assignment_1) StdoutLine: {'line': b'-- Found apriltag_ros: 3.3.0 (/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros/share/apriltag_ros/cmake)\n'}
+[2.201058] (group_8_assignment_1) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/jazzy/share/apriltag_msgs/cmake)\n'}
+[2.205832] (-) TimerEvent: {}
+[2.231289] (group_8_assignment_1) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[2.248932] (group_8_assignment_1) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.271231] (group_8_assignment_1) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[2.306038] (-) TimerEvent: {}
+[2.406876] (-) TimerEvent: {}
+[2.503851] (group_8_assignment_1) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.506838] (-) TimerEvent: {}
+[2.536148] (group_8_assignment_1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.541153] (group_8_assignment_1) StdoutLine: {'line': b'-- Build files have been written to: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1\n'}
+[2.572016] (group_8_assignment_1) CommandEnded: {'returncode': 0}
+[2.572531] (group_8_assignment_1) JobProgress: {'identifier': 'group_8_assignment_1', 'progress': 'build'}
+[2.573090] (group_8_assignment_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', '--', '-j8', '-l8'], 'cwd': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jayamalsigera', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4/lib:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros/lib:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions/lib:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jayamalsigera', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '2252', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayamalsigera', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jayamalsigera', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jayamalsigera/software/anaconda3/condabin:/home/jayamalsigera/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JSNode-UL20:@/tmp/.ICE-unix/2216,unix/JSNode-UL20:/tmp/.ICE-unix/2216', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf1f7240_0fa6_4b19_8974_29b962bd14a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IR1MG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_movit_config:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_launch:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_desription:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_base:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_assignment_1:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex3_bag_tf_apriltags:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/jayamalsigera/software/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jayamalsigera/software/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jayamalsigera/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4/lib/python3.12/site-packages:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions/lib/python3.12/site-packages:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_movit_config:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_launch:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_desription:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_base:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_assignment_1:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex3_bag_tf_apriltags:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.606943] (-) TimerEvent: {}
+[2.643171] (group_8_assignment_1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/initial_pose_node.dir/src/initial_pose_node.cpp.o\x1b[0m\n'}
+[2.707040] (-) TimerEvent: {}
+[2.807468] (-) TimerEvent: {}
+[2.908735] (-) TimerEvent: {}
+[3.009806] (-) TimerEvent: {}
+[3.110103] (-) TimerEvent: {}
+[3.210410] (-) TimerEvent: {}
+[3.310767] (-) TimerEvent: {}
+[3.411298] (-) TimerEvent: {}
+[3.511885] (-) TimerEvent: {}
+[3.612391] (-) TimerEvent: {}
+[3.712679] (-) TimerEvent: {}
+[3.812952] (-) TimerEvent: {}
+[3.913270] (-) TimerEvent: {}
+[4.013561] (-) TimerEvent: {}
+[4.113915] (-) TimerEvent: {}
+[4.214480] (-) TimerEvent: {}
+[4.315585] (-) TimerEvent: {}
+[4.417024] (-) TimerEvent: {}
+[4.517729] (-) TimerEvent: {}
+[4.618174] (-) TimerEvent: {}
+[4.718550] (-) TimerEvent: {}
+[4.818833] (-) TimerEvent: {}
+[4.919122] (-) TimerEvent: {}
+[5.019399] (-) TimerEvent: {}
+[5.119713] (-) TimerEvent: {}
+[5.220062] (-) TimerEvent: {}
+[5.320380] (-) TimerEvent: {}
+[5.420768] (-) TimerEvent: {}
+[5.521516] (-) TimerEvent: {}
+[5.622349] (-) TimerEvent: {}
+[5.723379] (-) TimerEvent: {}
+[5.824611] (-) TimerEvent: {}
+[5.926247] (-) TimerEvent: {}
+[6.026759] (-) TimerEvent: {}
+[6.127111] (-) TimerEvent: {}
+[6.227664] (-) TimerEvent: {}
+[6.328359] (-) TimerEvent: {}
+[6.428658] (-) TimerEvent: {}
+[6.529096] (-) TimerEvent: {}
+[6.629477] (-) TimerEvent: {}
+[6.731564] (-) TimerEvent: {}
+[6.833912] (-) TimerEvent: {}
+[6.934296] (-) TimerEvent: {}
+[7.037864] (-) TimerEvent: {}
+[7.138543] (-) TimerEvent: {}
+[7.239201] (-) TimerEvent: {}
+[7.339552] (-) TimerEvent: {}
+[7.439829] (-) TimerEvent: {}
+[7.540111] (-) TimerEvent: {}
+[7.640546] (-) TimerEvent: {}
+[7.741121] (-) TimerEvent: {}
+[7.842026] (-) TimerEvent: {}
+[7.943559] (-) TimerEvent: {}
+[8.045178] (-) TimerEvent: {}
+[8.145667] (-) TimerEvent: {}
+[8.245962] (-) TimerEvent: {}
+[8.346216] (-) TimerEvent: {}
+[8.446491] (-) TimerEvent: {}
+[8.546911] (-) TimerEvent: {}
+[8.647285] (-) TimerEvent: {}
+[8.747533] (-) TimerEvent: {}
+[8.847804] (-) TimerEvent: {}
+[8.948034] (-) TimerEvent: {}
+[8.985592] (group_8_assignment_1) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable initial_pose_node\x1b[0m\n'}
+[9.048164] (-) TimerEvent: {}
+[9.148686] (-) TimerEvent: {}
+[9.240649] (group_8_assignment_1) StdoutLine: {'line': b'[ 50%] Built target initial_pose_node\n'}
+[9.248826] (-) TimerEvent: {}
+[9.269517] (group_8_assignment_1) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_center_node.dir/src/apriltag_center_node.cpp.o\x1b[0m\n'}
+[9.348937] (-) TimerEvent: {}
+[9.449460] (-) TimerEvent: {}
+[9.549842] (-) TimerEvent: {}
+[9.650072] (-) TimerEvent: {}
+[9.750416] (-) TimerEvent: {}
+[9.850840] (-) TimerEvent: {}
+[9.951357] (-) TimerEvent: {}
+[10.051609] (-) TimerEvent: {}
+[10.151934] (-) TimerEvent: {}
+[10.252977] (-) TimerEvent: {}
+[10.353851] (-) TimerEvent: {}
+[10.454119] (-) TimerEvent: {}
+[10.554380] (-) TimerEvent: {}
+[10.654817] (-) TimerEvent: {}
+[10.755441] (-) TimerEvent: {}
+[10.856321] (-) TimerEvent: {}
+[10.957342] (-) TimerEvent: {}
+[11.059029] (-) TimerEvent: {}
+[11.159840] (-) TimerEvent: {}
+[11.260432] (-) TimerEvent: {}
+[11.360832] (-) TimerEvent: {}
+[11.461323] (-) TimerEvent: {}
+[11.561598] (-) TimerEvent: {}
+[11.661858] (-) TimerEvent: {}
+[11.762104] (-) TimerEvent: {}
+[11.862393] (-) TimerEvent: {}
+[11.962745] (-) TimerEvent: {}
+[12.063217] (-) TimerEvent: {}
+[12.163759] (-) TimerEvent: {}
+[12.264125] (-) TimerEvent: {}
+[12.364582] (-) TimerEvent: {}
+[12.464904] (-) TimerEvent: {}
+[12.565190] (-) TimerEvent: {}
+[12.665523] (-) TimerEvent: {}
+[12.765772] (-) TimerEvent: {}
+[12.866042] (-) TimerEvent: {}
+[12.966372] (-) TimerEvent: {}
+[13.067208] (-) TimerEvent: {}
+[13.168489] (-) TimerEvent: {}
+[13.269038] (-) TimerEvent: {}
+[13.369314] (-) TimerEvent: {}
+[13.469569] (-) TimerEvent: {}
+[13.569834] (-) TimerEvent: {}
+[13.670368] (-) TimerEvent: {}
+[13.770837] (-) TimerEvent: {}
+[13.871143] (-) TimerEvent: {}
+[13.971676] (-) TimerEvent: {}
+[14.072398] (-) TimerEvent: {}
+[14.173037] (-) TimerEvent: {}
+[14.273354] (-) TimerEvent: {}
+[14.373658] (-) TimerEvent: {}
+[14.473964] (-) TimerEvent: {}
+[14.574251] (-) TimerEvent: {}
+[14.674530] (-) TimerEvent: {}
+[14.774834] (-) TimerEvent: {}
+[14.875102] (-) TimerEvent: {}
+[14.975431] (-) TimerEvent: {}
+[15.075873] (-) TimerEvent: {}
+[15.176453] (-) TimerEvent: {}
+[15.277180] (-) TimerEvent: {}
+[15.378322] (-) TimerEvent: {}
+[15.479649] (-) TimerEvent: {}
+[15.580242] (-) TimerEvent: {}
+[15.681344] (-) TimerEvent: {}
+[15.782291] (-) TimerEvent: {}
+[15.888033] (-) TimerEvent: {}
+[15.988821] (-) TimerEvent: {}
+[16.089586] (-) TimerEvent: {}
+[16.191210] (-) TimerEvent: {}
+[16.293851] (-) TimerEvent: {}
+[16.394542] (-) TimerEvent: {}
+[16.494906] (-) TimerEvent: {}
+[16.595262] (-) TimerEvent: {}
+[16.695638] (-) TimerEvent: {}
+[16.796174] (-) TimerEvent: {}
+[16.896616] (-) TimerEvent: {}
+[16.996955] (-) TimerEvent: {}
+[17.097251] (-) TimerEvent: {}
+[17.197491] (-) TimerEvent: {}
+[17.297739] (-) TimerEvent: {}
+[17.398394] (-) TimerEvent: {}
+[17.499980] (-) TimerEvent: {}
+[17.601303] (-) TimerEvent: {}
+[17.701542] (-) TimerEvent: {}
+[17.801864] (-) TimerEvent: {}
+[17.902426] (-) TimerEvent: {}
+[18.003264] (-) TimerEvent: {}
+[18.104441] (-) TimerEvent: {}
+[18.206363] (-) TimerEvent: {}
+[18.307413] (-) TimerEvent: {}
+[18.408694] (-) TimerEvent: {}
+[18.508946] (-) TimerEvent: {}
+[18.609218] (-) TimerEvent: {}
+[18.709543] (-) TimerEvent: {}
+[18.809914] (-) TimerEvent: {}
+[18.910252] (-) TimerEvent: {}
+[19.010699] (-) TimerEvent: {}
+[19.111139] (-) TimerEvent: {}
+[19.211928] (-) TimerEvent: {}
+[19.313131] (-) TimerEvent: {}
+[19.413585] (-) TimerEvent: {}
+[19.513857] (-) TimerEvent: {}
+[19.614287] (-) TimerEvent: {}
+[19.714820] (-) TimerEvent: {}
+[19.815159] (-) TimerEvent: {}
+[19.915444] (-) TimerEvent: {}
+[20.015897] (-) TimerEvent: {}
+[20.056983] (group_8_assignment_1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable apriltag_center_node\x1b[0m\n'}
+[20.116009] (-) TimerEvent: {}
+[20.216304] (-) TimerEvent: {}
+[20.317069] (-) TimerEvent: {}
+[20.418081] (-) TimerEvent: {}
+[20.518701] (-) TimerEvent: {}
+[20.619009] (-) TimerEvent: {}
+[20.719294] (-) TimerEvent: {}
+[20.726562] (group_8_assignment_1) StdoutLine: {'line': b'[100%] Built target apriltag_center_node\n'}
+[20.737966] (group_8_assignment_1) CommandEnded: {'returncode': 0}
+[20.738537] (group_8_assignment_1) JobProgress: {'identifier': 'group_8_assignment_1', 'progress': 'install'}
+[20.755701] (group_8_assignment_1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1'], 'cwd': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jayamalsigera', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4/lib:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros/lib:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions/lib:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jayamalsigera', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '2252', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jayamalsigera', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jayamalsigera', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jayamalsigera/software/anaconda3/condabin:/home/jayamalsigera/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JSNode-UL20:@/tmp/.ICE-unix/2216,unix/JSNode-UL20:/tmp/.ICE-unix/2216', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf1f7240_0fa6_4b19_8974_29b962bd14a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IR1MG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_movit_config:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_launch:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_desription:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_base:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_assignment_1:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex3_bag_tf_apriltags:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/jayamalsigera/software/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'PWD': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jayamalsigera/software/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jayamalsigera/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4/lib/python3.12/site-packages:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions/lib/python3.12/site-packages:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_movit_config:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_launch:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_desription:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/ir_base:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_ex4:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/group_8_assignment_1:/home/jayamalsigera/ros2_workspaces/ws_8_assignments/install/apriltag_ros:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex3_bag_tf_apriltags:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex2_ros_actions:/home/jayamalsigera/ros2_workspaces/ws_ros2_jazzy/install/ex1_vacuum_cleaner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[20.765793] (group_8_assignment_1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.766220] (group_8_assignment_1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.766663] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/launch/pipeline.launch.py\n'}
+[20.775168] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/lib/group_8_assignment_1/apriltag_center_node\n'}
+[20.789225] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/lib/group_8_assignment_1/initial_pose_node\n'}
+[20.801736] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/ament_index/resource_index/package_run_dependencies/group_8_assignment_1\n'}
+[20.810953] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/ament_index/resource_index/parent_prefix_path/group_8_assignment_1\n'}
+[20.819538] (-) TimerEvent: {}
+[20.831377] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/ament_prefix_path.sh\n'}
+[20.845507] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/ament_prefix_path.dsv\n'}
+[20.863227] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/path.sh\n'}
+[20.872609] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/environment/path.dsv\n'}
+[20.880973] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.bash\n'}
+[20.897736] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.sh\n'}
+[20.907138] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.zsh\n'}
+[20.916576] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/local_setup.dsv\n'}
+[20.919639] (-) TimerEvent: {}
+[20.936113] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/package.dsv\n'}
+[20.948112] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/ament_index/resource_index/packages/group_8_assignment_1\n'}
+[20.960649] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/cmake/group_8_assignment_1Config.cmake\n'}
+[20.971062] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/cmake/group_8_assignment_1Config-version.cmake\n'}
+[20.984487] (group_8_assignment_1) StdoutLine: {'line': b'-- Symlinking: /home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/install/group_8_assignment_1/share/group_8_assignment_1/package.xml\n'}
+[20.993627] (group_8_assignment_1) CommandEnded: {'returncode': 0}
+[21.018781] (group_8_assignment_1) JobEnded: {'identifier': 'group_8_assignment_1', 'rc': 0}
+[21.020284] (-) TimerEvent: {}
+[21.020350] (-) EventReactorShutdown: {}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3f789cd25b08b93578f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "group_8_assignment_1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_center_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_center_node-2320297b95244c1eac73.json",
+					"name" : "apriltag_center_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "group_8_assignment_1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-group_8_assignment_1_uninstall-a708c66f8b3cbf37b4b8.json",
+					"name" : "group_8_assignment_1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "initial_pose_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-initial_pose_node-2a2c7be020f85fda7758.json",
+					"name" : "initial_pose_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2bc2b26c6f3b6536526f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1/build/group_8_assignment_1",
+		"source" : "/home/jayamalsigera/ros2_workspaces/ws_8_assignments/src/group_8_assignment_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
