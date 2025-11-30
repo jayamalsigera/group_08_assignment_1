@@ -90,6 +90,19 @@ ament_target_dependencies(navigation_goal_node
   tf2_geometry_msgs
 )
 
+add_executable(table_detection_node
+  src/table_detection_node.cpp
+)
+
+ament_target_dependencies(table_detection_node
+  rclcpp
+  sensor_msgs
+  geometry_msgs
+  tf2
+  tf2_ros
+  tf2_geometry_msgs
+)
+
 # Install
 # ----------------------------------------
 install(
@@ -103,6 +116,7 @@ install(
     camera_relay_node
     apriltag_center_node
     navigation_goal_node
+    table_detection_node
   DESTINATION lib/${PROJECT_NAME}
 )
 # ----------------------------------------

@@ -82,6 +82,14 @@ def generate_launch_description():
         ]
     )
 
+    table_detection_node = Node(
+        package='group_8_assignment_1',
+        executable='table_detection_node',
+        name='table_detection_node',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
     kill_gazebo_on_exit = RegisterEventHandler(
         OnShutdown(
             on_shutdown=[
@@ -112,5 +120,6 @@ def generate_launch_description():
         apriltag_center_node,
         initial_pose_node,
         navigation_goal_node,
-        # kill_gazebo_on_exit
+        table_detection_node,
+        kill_gazebo_on_exit
     ])
