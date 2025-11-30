@@ -16,7 +16,7 @@ class TableDetectionServer : public rclcpp::Node
 {
 public:
     TableDetectionServer()
-    : Node("TURTLEBOT")
+    : Node("turtlebot")
     {
         // Initialize TF buffer and listener
         tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock());
