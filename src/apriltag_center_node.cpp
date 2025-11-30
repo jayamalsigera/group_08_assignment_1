@@ -12,6 +12,7 @@
 #include "tf2_ros/transform_listener.h"
 #include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
 
+
 class AprilTagCenterNode : public rclcpp::Node
 {
 public:
@@ -34,7 +35,6 @@ public:
         "/depth_camera/camera_info", 10,
         std::bind(&AprilTagCenterNode::depthInfoCallback, this, std::placeholders::_1));
 
-    // TF Buffer + Listener
     tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock());
     tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
 
@@ -101,7 +101,7 @@ private:
     double cy = depth_cam_info_.k[5];
     std::string cam_frame = "external_camera/link/rgb_camera";
 
-    double sum_x = 0.0, sum_y = 0.0, sum_z = 0.0;
+    double sum_x = 0.0, sum_y = 0.0;
     size_t tag_num = 0;
 
     for (const auto &detection : msg->detections)
@@ -124,6 +124,8 @@ private:
       p_cam.header.frame_id = cam_frame;
       p_cam.point.x = X;
       p_cam.point.y = Y;
+      p_cam.point.z = Z;
+      
 
       try {
         tf_buffer_->transform(p_cam, p_world, frame_id_);
