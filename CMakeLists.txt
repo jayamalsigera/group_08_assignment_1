@@ -46,5 +46,15 @@ install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  TARGETS
+    initial_pose_node
+    camera_relay_node
+    apriltag_center_node
+    navigation_goal_node
+    table_detection_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+# ----------------------------------------
 ament_package()
 
