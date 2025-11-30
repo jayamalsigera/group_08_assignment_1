@@ -6,21 +6,28 @@ class InitialPoseNode : public rclcpp::Node
 public:
     InitialPoseNode() : Node("initial_pose_node"), pose_sent_(false)
     {
+        // Publisher for initial pose
         initial_pose_pub_ = this->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>(
             "/initialpose", 10);
 
+        // Timer to check if AMCL is ready
         timer_ = this->create_wall_timer(
             std::chrono::seconds(1),
             std::bind(&InitialPoseNode::checkAmclReady, this)
         );
+
+        // Log node start
+        RCLCPP_INFO(this->get_logger(), "Initial Pose Node has started.");
     }
 
 private:
 
+    // Check if AMCL is ready by verifying the existence of the /amcl_pose topic
     void checkAmclReady()
     {
         auto topics = this->get_topic_names_and_types();
 
+        // Check for /amcl_pose topic
         bool amcl_ready = false;
         for (const auto &t : topics)
         {
@@ -28,12 +35,14 @@ private:
                 amcl_ready = true;
         }
 
+        // If AMCL is not ready, log a warning
         if (!amcl_ready)
         {
             RCLCPP_WARN(this->get_logger(), "Waiting for AMCL to be ready...");
             return;
         }
 
+        // If AMCL is ready and initial pose not yet sent, publish it
         if (!pose_sent_)
         {
             publishInitialPose();
@@ -42,6 +51,7 @@ private:
         }
     }
 
+    // Publish the initial pose to /initialpose topic
     void publishInitialPose()
     {
         geometry_msgs::msg::PoseWithCovarianceStamped msg;

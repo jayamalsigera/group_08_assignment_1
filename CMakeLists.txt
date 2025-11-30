@@ -14,19 +14,15 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
-
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_sensor_msgs REQUIRED)
-
 find_package(apriltag_ros REQUIRED)
 find_package(apriltag_msgs REQUIRED)
-
 find_package(image_transport REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
-
 find_package(nav2_msgs REQUIRED)
 
 # Executables
@@ -56,7 +52,6 @@ ament_target_dependencies(camera_relay_node
 add_executable(apriltag_center_node
   src/apriltag_center_node.cpp
 )
-
 
 ament_target_dependencies(apriltag_center_node
   rclcpp
@@ -90,6 +85,20 @@ ament_target_dependencies(navigation_goal_node
   tf2_geometry_msgs
 )
 
+# table detection node
+add_executable(table_detection_node
+  src/table_detection_node.cpp
+)
+
+ament_target_dependencies(table_detection_node
+  rclcpp
+  sensor_msgs
+  geometry_msgs
+  tf2
+  tf2_ros
+  tf2_geometry_msgs
+)
+
 # Install
 # ----------------------------------------
 install(
@@ -103,6 +112,7 @@ install(
     camera_relay_node
     apriltag_center_node
     navigation_goal_node
+    table_detection_node
   DESTINATION lib/${PROJECT_NAME}
 )
 # ----------------------------------------
