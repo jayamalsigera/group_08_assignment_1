@@ -24,13 +24,9 @@ source ${HOME}/${workspace}/install/setup.bash
 
 This terminal launches Gazebo, RViz, and all ROS 2 nodes to start moving the robot toward the goal.
 
-Before launching the pipeline, terminate any leftover Gazebo/RViz processes from previous simulations:
+[OPTIONAL] Before launching the pipeline, terminate any leftover Gazebo/RViz processes from previous simulations:
 ```bash
-pkill -9 ruby
-pkill -9 ign
-pkill -9 gz
-pkill -9 gzclient
-pkill -9 gzserver
+pkill -9 -f "ruby|ign|gz|gzclient|gzserver"
 ```
 Then launch the pipeline:
 ```bash
